@@ -7,7 +7,7 @@ Includes both the authentication and secure servers
 Install [Go](https://go.dev/doc/install) and [git](https://git-scm.com/downloads), then clone and enter the repository
 
 ```bash
-$ git clone https://github.com/PretendoNetwork/minecraft-wiiu
+$ git clone https://github.com/SamtendoNetwork/minecraft-wiiu
 $ cd minecraft
 ```
 
@@ -79,3 +79,5 @@ All configuration options are handled via environment variables
 | `PN_MINECRAFT_FRIENDS_GRPC_PORT`          | Port for Friends gRPC service                                                                   | Yes                                           |
 | `PN_MINECRAFT_FRIENDS_GRPC_API_KEY`       | API key for Friends gRPC service                                                                | No (Assumed to be an open gRPC API)           |
 | `PN_MINECRAFT_ALLOW_PUBLIC_MATCHMAKING`   | Set to "1" to enable public matchmaking (unsafe - game has 0 anti-cheat)                        | No (Assumed 0)                                |
+
+Credits to Pretendo for the original repo.
